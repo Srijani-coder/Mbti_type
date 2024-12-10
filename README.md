@@ -4,29 +4,29 @@
 Objective: Predicting Myer Briggs Personality types using text posts from social media 
 Myer Briggs Type Indicator 
 Myer Briggs Type Indicator 
-The Myers-Briggs Type Indicator (MBTI) is a personality assessment tool that sorts people into 16 different range types of personalities, based on these four main dichotomies. Each of these are represented by a four-letter code, with each letter corresponding to one preference. The MBTI was created by Katharine Cook Briggs and her daughter Isabel Briggs Myers based on the theory of psychological types from Carl Gustav Jung. The four dichotomies and preferences are as follows: 
-1.	Extraversion (E) Vs. Introversion (I); 
-2.	S: Sensing vs N: Intuition 
-3.	Thinking (T) vs. Feeling (F): 
-4.	Perceiving (P) vs Judging (J) 
-Combining these choices in the experiment caused the production of 16 unique personality categories, each represented by a four-letter code. Here are the 16 MBTI personality types with a brief description of each: 
+The Myers-Briggs Type Indicator (MBTI) is a personality assessment tool that sorts people into 16 different range types of personalities, based on these four main dichotomies. Each of these are represented by a four-letter code, with each letter corresponding to one preference. The MBTI was created by Katharine Cook Briggs and her daughter Isabel Briggs Myers based on the theory of psychological types from Carl Gustav Jung. The four dichotomies and preferences are as follows: </br>
+**1.	Extraversion (E) Vs. Introversion (I);** </br>
+**2.	S: Sensing vs N: Intuition** </br>
+**3.	Thinking (T) vs. Feeling (F)** </br> 
+**4.	Perceiving (P) vs Judging (J)** </br> 
+Combining these choices in the experiment caused the production of 16 unique personality categories, each represented by a four-letter code. Here are the 16 MBTI personality types with a brief description of each: </br></br>
  
-1.	ISTJ (The Inspector): Responsible, reliable, and detail-oriented. Prefers structure and order. 
-2.	ISFJ (The Protector): Caring, loyal, and practical. Values harmony and cooperation. 
-3.	INFJ (The Counselor): Idealistic, insightful, and compassionate. Seeks meaning and connection. 
-4.	INTJ (The Mastermind): Strategic, logical, and independent. Values knowledge and competence. 
-5.ISTP (The Craftsman): Analytical, practical, and adventurous. Prefers hands-on problemsolving. 
-6.ISFP (The Composer): Artistic, sensitive, and easygoing. Values personal freedom and experiences. 
-7.INFP (The Healer): Idealistic, creative, and empathetic. Seeks authenticity and personal growth. 
-8.INTP (The Architect): Intellectual, curious, and unconventional. Values logic and theoretical exploration. 
-9.ESTP (The Dynamo): Energetic, pragmatic, and spontaneous. Enjoys taking risks and living in the moment. 
-10.ESFP (The Performer): Enthusiastic, sociable, and fun-loving. Values experiences and connection with others. 
-11.ENFP (The Champion): Imaginative, enthusiastic, and people-oriented. Values creativity and personal growth. 
-12.ENTP (The Visionary): Innovative, outspoken, and resourceful. Enjoys debating and exploring new ideas. 
-13.ESTJ (The Supervisor): Practical, organized, and efficient. Prefers structure and clear rules. 
-14.ESFJ (The Provider): Warm, cooperative, and responsible. Values relationships and community. 
-15.ENFJ (The Teacher): Charismatic, empathetic, and supportive. Enjoys helping others and fostering growth. 
-16.ENTJ (The Commander): Assertive, strategic, and decisive. Values leadership and achievement. 
+1.	ISTJ (The Inspector): Responsible, reliable, and detail-oriented. Prefers structure and order.</br> 
+2.	ISFJ (The Protector): Caring, loyal, and practical. Values harmony and cooperation. </br>
+3.	INFJ (The Counselor): Idealistic, insightful, and compassionate. Seeks meaning and connection. </br>
+4.	INTJ (The Mastermind): Strategic, logical, and independent. Values knowledge and competence. </br>
+5.ISTP (The Craftsman): Analytical, practical, and adventurous. Prefers hands-on problemsolving.</br> 
+6.ISFP (The Composer): Artistic, sensitive, and easygoing. Values personal freedom and experiences.</br> 
+7.INFP (The Healer): Idealistic, creative, and empathetic. Seeks authenticity and personal growth.</br>
+8.INTP (The Architect): Intellectual, curious, and unconventional. Values logic and theoretical exploration.</br> 
+9.ESTP (The Dynamo): Energetic, pragmatic, and spontaneous. Enjoys taking risks and living in the moment. </br>
+10.ESFP (The Performer): Enthusiastic, sociable, and fun-loving. Values experiences and connection with others. </br>
+11.ENFP (The Champion): Imaginative, enthusiastic, and people-oriented. Values creativity and personal growth.</br> 
+12.ENTP (The Visionary): Innovative, outspoken, and resourceful. Enjoys debating and exploring new ideas. </br>
+13.ESTJ (The Supervisor): Practical, organized, and efficient. Prefers structure and clear rules. </br>
+14.ESFJ (The Provider): Warm, cooperative, and responsible. Values relationships and community.</br> 
+15.ENFJ (The Teacher): Charismatic, empathetic, and supportive. Enjoys helping others and fostering growth. </br>
+16.ENTJ (The Commander): Assertive, strategic, and decisive. Values leadership and achievement. </br>
 The MBTI is widely used in various settings, including personal development, career counselling, team building, and organizational development. However, it is important to note that while many find the MBTI framework useful for understanding themselves and others, it has also faced criticism for its validity and reliability in the field of psychology. 
 Necessary Application: 
 This analysis can help with: 
@@ -34,7 +34,7 @@ This analysis can help with:
 •	Efficiency of employees in the organization 
 •	Depression Detection 
   
-Dataset Selection: 
+**Dataset Selection**:</br> 
 Dataset: MBTI 500 dataset 
 Dataset Construction & Features Mentioned in Kaggle:   
 Content 
