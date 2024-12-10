@@ -15,18 +15,18 @@ Combining these choices in the experiment caused the production of 16 unique per
 2.	ISFJ (The Protector): Caring, loyal, and practical. Values harmony and cooperation. </br>
 3.	INFJ (The Counselor): Idealistic, insightful, and compassionate. Seeks meaning and connection. </br>
 4.	INTJ (The Mastermind): Strategic, logical, and independent. Values knowledge and competence. </br>
-5.ISTP (The Craftsman): Analytical, practical, and adventurous. Prefers hands-on problemsolving.</br> 
-6.ISFP (The Composer): Artistic, sensitive, and easygoing. Values personal freedom and experiences.</br> 
-7.INFP (The Healer): Idealistic, creative, and empathetic. Seeks authenticity and personal growth.</br>
-8.INTP (The Architect): Intellectual, curious, and unconventional. Values logic and theoretical exploration.</br> 
-9.ESTP (The Dynamo): Energetic, pragmatic, and spontaneous. Enjoys taking risks and living in the moment. </br>
-10.ESFP (The Performer): Enthusiastic, sociable, and fun-loving. Values experiences and connection with others. </br>
-11.ENFP (The Champion): Imaginative, enthusiastic, and people-oriented. Values creativity and personal growth.</br> 
-12.ENTP (The Visionary): Innovative, outspoken, and resourceful. Enjoys debating and exploring new ideas. </br>
-13.ESTJ (The Supervisor): Practical, organized, and efficient. Prefers structure and clear rules. </br>
-14.ESFJ (The Provider): Warm, cooperative, and responsible. Values relationships and community.</br> 
-15.ENFJ (The Teacher): Charismatic, empathetic, and supportive. Enjoys helping others and fostering growth. </br>
-16.ENTJ (The Commander): Assertive, strategic, and decisive. Values leadership and achievement. </br>
+5. ISTP (The Craftsman): Analytical, practical, and adventurous. Prefers hands-on problemsolving.</br> 
+6. ISFP (The Composer): Artistic, sensitive, and easygoing. Values personal freedom and experiences.</br> 
+7. INFP (The Healer): Idealistic, creative, and empathetic. Seeks authenticity and personal growth.</br>
+8. INTP (The Architect): Intellectual, curious, and unconventional. Values logic and theoretical exploration.</br> 
+9. ESTP (The Dynamo): Energetic, pragmatic, and spontaneous. Enjoys taking risks and living in the moment. </br>
+10. ESFP (The Performer): Enthusiastic, sociable, and fun-loving. Values experiences and connection with others. </br>
+11. ENFP (The Champion): Imaginative, enthusiastic, and people-oriented. Values creativity and personal growth.</br> 
+12. ENTP (The Visionary): Innovative, outspoken, and resourceful. Enjoys debating and exploring new ideas. </br>
+13. ESTJ (The Supervisor): Practical, organized, and efficient. Prefers structure and clear rules. </br>
+14. ESFJ (The Provider): Warm, cooperative, and responsible. Values relationships and community.</br> 
+15. ENFJ (The Teacher): Charismatic, empathetic, and supportive. Enjoys helping others and fostering growth. </br>
+16. ENTJ (The Commander): Assertive, strategic, and decisive. Values leadership and achievement. </br>
 The MBTI is widely used in various settings, including personal development, career counselling, team building, and organizational development. However, it is important to note that while many find the MBTI framework useful for understanding themselves and others, it has also faced criticism for its validity and reliability in the field of psychology. 
 Necessary Application: 
 This analysis can help with: 
@@ -43,7 +43,7 @@ Acknowledgments of Contributors:
 •	Dylan Storey, who provided a DATASET of 1.7M records of posts collected from Reddit using Google big query. 
 •	Mitchell Jolly (datasheet) provided a DATASET of 9K of posts collected from the PersonalityCafe forum, where each record has the last 50 posts written by the corresponding user. 
  
-Text Data Pre-processing: 
+**Text Data Pre-processing**: 
 Posts are pre-processed texts: 
 •	No punctuations, stop-words, URLs 
 •	Lemmatization 
@@ -51,7 +51,7 @@ Posts are pre-processed texts:
 •	Personality types are 16 unique values 
  
  
-Reasons for Choosing this Dataset: 
+**Reasons for Choosing this Dataset**: 
 The dataset is relatively large and rich enough for GNN models which need abundant data to learn complex patterns. 106K pre-processed posts are collected  as raw texts in this research  
 2.	Constant Post Length: All posts are 500 words long, making the creation of input features for a GNN straightforward. 
 3.	As The Types Of Personality: It is a dataset that may be used to test your multi-class classification on all 16 labels, and therefore the ideal to do so; 
